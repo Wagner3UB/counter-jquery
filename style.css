@@ -1,0 +1,62 @@
+.clear{
+  clear: both;
+}
+.btn {
+	background: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	font: normal 14px/1.6 "Helvetica Neue", Arial, sans-serif;
+	height: 32px;
+	margin-right: 10px;
+}
+.btn .icone, .btn .contador {
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	user-select: none;
+	width: 50%;
+}
+.btn .icone img {
+	display: block;
+	margin: 0 auto;
+	width: 32px;
+}
+.btn .icone span {
+  font-size: 24px;
+  font-weight: 700;
+	text-align: center;
+	width: 32px;
+}
+.btn .contador {
+	color: #333;
+	font-weight: 600;
+}
+#quantidade {
+	border: 1px solid #0984ff;
+	width: 500px;
+}
+
+#quantidade .icone{
+	width: 25%;
+  height: 32px;
+}
+#quantidade .contador {
+	width: 50%
+}
+
+#quantidade .contador {
+	background: #0984ff;
+	color: #fff;
+}
+p.alert{
+  border: 1px solid rgb(153, 87, 87);
+  text-align: center;
+  width: 500px;
+  padding: 10px 0;
+  display: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: #900;
+  border-radius: 5px;
+}
